@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+#tareas {
+  display: grid;
+  gap: 15px;
+}
+
+.tarea {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.tarea strong {
+  font-size: 1.2em;
+  color: #34495e;
+}
+
+.fecha {
+  margin-top: 8px;
+  color: #555;
+}
+
+.contador {
+  font-weight: bold;
+  color: #2980b9;
+  margin-top: 5px;
+}
+
+.formRegistro {
+  display: none;
+  margin-top: 10px;
+}
+
+.formRegistro input {
+  padding: 6px;
+  margin-right: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.formRegistro button {
+  background: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.formRegistro button:hover {
+  background: #219150;
+}
